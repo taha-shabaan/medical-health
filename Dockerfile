@@ -81,6 +81,6 @@ ENV PORT=8000
 EXPOSE 8000
 
 # =========================
-# Start server (must listen on 0.0.0.0:$PORT for Railway healthchecks)
+# Web only (no migrate) — bind immediately for PaaS healthchecks. Migrations: Railway preDeployCommand in railway.toml.
 # =========================
 CMD ["sh", "-c", "exec php artisan serve --host=0.0.0.0 --port=${PORT}"]

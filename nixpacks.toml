@@ -4,12 +4,6 @@ cmds = ["composer install --no-dev --optimize-autoloader"]
 [phases.build]
 cmds = ["php artisan config:cache", "php artisan route:cache"]
 
+# Do not run migrate here — Railway preDeployCommand (railway.toml) handles it; otherwise healthchecks fail until migrate finishes.
 [start]
-cmd = "php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=8080"[phases.install]
-cmds = ["composer install --no-dev --optimize-autoloader"]
-
-[phases.build]
-cmds = ["php artisan config:cache", "php artisan route:cache"]
-
-[start]
-cmd = "php artisan migrate --force && php artisan serve --host=0.0.0.0 --port=8080"
+cmd = "/bin/sh -c \"exec php artisan serve --host=0.0.0.0 --port=${PORT:-8080}\""
