@@ -5,5 +5,3 @@ dockerfilePath = "Dockerfile"
 [deploy]
 preDeployCommand = "php artisan migrate --force"
 startCommand = "php -S 0.0.0.0:${PORT} -t public"
-healthcheckPath = "/up"
-healthcheckTimeout = 300
