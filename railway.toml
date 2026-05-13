@@ -1,13 +1,8 @@
-# https://docs.railway.com/reference/config-as-code
-# Health path is Laravel's built-in probe from bootstrap/app.php → health: '/up'
-# Do not set the dashboard path to the literal string "health: '/up'" — use /up only.
-
 [build]
 builder = "DOCKERFILE"
 dockerfilePath = "Dockerfile"
 
 [deploy]
-# Forces correct bind even if the dashboard has an old custom start command (e.g. --port=8000).
-startCommand = "sh -c 'exec php artisan serve --host=0.0.0.0 --port=${PORT}'"
+startCommand = "php -S 0.0.0.0:${PORT} -t public"
 healthcheckPath = "/up"
 healthcheckTimeout = 300
