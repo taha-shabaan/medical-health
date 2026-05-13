@@ -52,7 +52,7 @@ RUN docker-php-ext-install \
 # =========================
 # Copy application
 # =========================
-COPY --from=vendor /app /var/www/html
+COPY --from=vendor /app/vendor /var/www/html/vendor
 COPY . .
 
 # =========================
@@ -62,6 +62,7 @@ RUN cp .env.example .env || true \
     && touch database/database.sqlite \
     && mkdir -p storage bootstrap/cache \
     && chmod -R 775 storage bootstrap/cache \
+    && composer dump-autoload --optimize \
     && php artisan package:discover --ansi \
     && php artisan key:generate --force || true
 
