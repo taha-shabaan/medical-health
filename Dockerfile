@@ -65,12 +65,15 @@ RUN cp .env.example .env || true \
     && php artisan package:discover --ansi \
     && php artisan key:generate --force || true
 
+# Default for local `docker run` when PORT is unset; Railway injects PORT at runtime.
+ENV PORT=8000
+
 # =========================
-# Expose port
+# Expose port (informational; PaaS uses $PORT)
 # =========================
 EXPOSE 8000
 
 # =========================
-# Start server
+# Start server (must listen on 0.0.0.0:$PORT for Railway healthchecks)
 # =========================
-CMD ["php", "artisan", "serve", "--host=0.0.0.0", "--port=8000"]
+CMD ["sh", "-c", "exec php artisan serve --host=0.0.0.0 --port=${PORT}"]

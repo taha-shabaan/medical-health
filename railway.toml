@@ -1,0 +1,11 @@
+# https://docs.railway.com/reference/config-as-code
+# Health path is Laravel's built-in probe from bootstrap/app.php → health: '/up'
+# Do not set the dashboard path to the literal string "health: '/up'" — use /up only.
+
+[build]
+builder = "DOCKERFILE"
+dockerfilePath = "Dockerfile"
+
+[deploy]
+healthcheckPath = "/up"
+healthcheckTimeout = 300
