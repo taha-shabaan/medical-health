@@ -50,15 +50,21 @@ RUN docker-php-ext-install \
     curl
 
 # =========================
+# Copy Composer binary from vendor stage
+# =========================
+COPY --from=vendor /usr/bin/composer /usr/bin/composer
+
+# =========================
 # Copy application
 # =========================
-COPY --from=vendor /app /var/www/html
+COPY --from=vendor /app/vendor /var/www/html/vendor
 COPY . .
 
 # =========================
 # Laravel setup
 # =========================
-RUN cp .env.example .env || true \
+RUN composer dump-autoload --optimize \
+    && cp .env.example .env || true \
     && touch database/database.sqlite \
     && mkdir -p storage bootstrap/cache \
     && chmod -R 775 storage bootstrap/cache \
