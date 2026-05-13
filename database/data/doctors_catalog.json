@@ -1,0 +1,632 @@
+[
+  {
+    "name": "د. محمود حسن عدوي",
+    "specialty": "قلب وأوعية دموية (وباطنة)",
+    "area": "مركز الواسطى",
+    "address": "شارع الجمهورية - خلف مركز الشرطة.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D8%AD%D9%85%D9%88%D8%AF%20%D8%B9%D8%AF%D9%88%D9%8A"
+  },
+  {
+    "name": "د. محمد حلمي",
+    "specialty": "أمراض القلب والباطنة",
+    "area": "مركز الواسطى",
+    "address": "وسط مدينة الواسطى - بالقرب من منطقة المحطة.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D8%AD%D9%85%D8%AF%20%D8%AD%D9%84%D9%85%D9%8A"
+  },
+  {
+    "name": "د. منار حداد",
+    "specialty": "مخ وأعصاب",
+    "area": "مركز الواسطى",
+    "address": "شارع الثانوية - بجوار الرحاب للمنظفات - الدور الثاني.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D9%86%D8%A7%D8%B1%20%D8%AD%D8%AF%D8%A7%D8%AF"
+  },
+  {
+    "name": "د. محمد عبد الوهاب",
+    "specialty": "مخ وأعصاب",
+    "area": "مركز الواسطى",
+    "address": "يتواجد في بعض العيادات التخصصية بوسط المدينة (شارع سعد زغلول).",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D8%AD%D9%85%D8%AF%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%88%D9%87%D8%A7%D8%A8"
+  },
+  {
+    "name": "د. حسام البدوي",
+    "specialty": "طب الأطفال",
+    "area": "مركز الواسطى",
+    "address": "شارع مجلس المدينة.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%AD%D8%B3%D8%A7%D9%85%20%D8%A7%D9%84%D8%A8%D8%AF%D9%88%D9%8A"
+  },
+  {
+    "name": "د. محمد ربيع",
+    "specialty": "طب الأطفال",
+    "area": "مركز الواسطى",
+    "address": "شارع أحمد عرابي.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D8%AD%D9%85%D8%AF%20%D8%B1%D8%A8%D9%8A%D8%B9"
+  },
+  {
+    "name": "د. أحمد كمال فؤاد",
+    "specialty": "طب الأسنان",
+    "area": "مركز الواسطى",
+    "address": "شارع الجمهورية - برج الكنيسة.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A3%D8%AD%D9%85%D8%AF%20%D9%83%D9%85%D8%A7%D9%84"
+  },
+  {
+    "name": "د. ريهام مجدي",
+    "specialty": "طب الأسنان",
+    "area": "مركز الواسطى",
+    "address": "وسط مدينة الواسطى - عيادات الأسنان المتخصصة.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%B1%D9%8A%D9%87%D8%A7%D9%85%20%D9%85%D8%AC%D8%AF%D9%8A"
+  },
+  {
+    "name": "د. إسلام كمال",
+    "specialty": "علاج طبيعي",
+    "area": "مركز الواسطى",
+    "address": "خلف المدرسة الثانوية.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A5%D8%B3%D9%84%D8%A7%D9%85%20%D9%83%D9%85%D8%A7%D9%84"
+  },
+  {
+    "name": "د. إسلام منير",
+    "specialty": "طب وجراحة العيون",
+    "area": "مركز الواسطى",
+    "address": "شارع بورسعيد.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A5%D8%B3%D9%84%D8%A7%D9%85%20%D9%85%D9%86%D9%8A%D8%B1"
+  },
+  {
+    "name": "د. محمود محمد عبد الرحمن",
+    "specialty": "طب وجراحة العيون",
+    "area": "مركز الواسطى",
+    "address": "مدينة الواسطى - شارع أحمد عرابي (ببرج سلطان الطبي).",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D8%AD%D9%85%D9%88%D8%AF%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86"
+  },
+  {
+    "name": "د. فيليب عازر",
+    "specialty": "قلب وأوعية دموية",
+    "area": "الفشن",
+    "address": "شارع سعد زغلول أمام المطافئ – الفشن.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%81%D9%8A%D9%84%D9%8A%D8%A8%20%D8%B9%D8%A7%D8%B2%D8%B1"
+  },
+  {
+    "name": "د. حسام حسن عبد الرازق",
+    "specialty": "مخ وأعصاب",
+    "area": "الفشن",
+    "address": "شارع الإبراهيمية – بجوار المركز – الفشن.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%AD%D8%B3%D8%A7%D9%85%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B1%D8%A7%D8%B2%D9%82"
+  },
+  {
+    "name": "د. محمد الصفناوي",
+    "specialty": "مخ وأعصاب",
+    "area": "الفشن",
+    "address": "الفوريقة – أعلى صيدلية د. حسام عيد – الفشن.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D8%AD%D9%85%D8%AF%20%D8%A7%D9%84%D8%B5%D9%81%D9%86%D8%A7%D9%88%D9%8A"
+  },
+  {
+    "name": "د. فاروق زهران",
+    "specialty": "طب الأطفال",
+    "area": "الفشن",
+    "address": "شارع سعد زغلول – الفشن.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%81%D8%A7%D8%B1%D9%88%D9%82%20%D8%B2%D9%87%D8%B1%D8%A7%D9%86"
+  },
+  {
+    "name": "د. بيشوى هرمينا",
+    "specialty": "طب الأطفال",
+    "area": "الفشن",
+    "address": "شارع سعد زغلول – الفشن.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A8%D9%8A%D8%B4%D9%88%D9%89%20%D9%87%D8%B1%D9%85%D9%8A%D9%86%D8%A7"
+  },
+  {
+    "name": "د. أحمد وحيد حمدي",
+    "specialty": "طب الأطفال",
+    "area": "الفشن",
+    "address": "شارع الإبراهيمية – بجوار مستشفى زهور الحياة – الفشن.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A3%D8%AD%D9%85%D8%AF%20%D9%88%D8%AD%D9%8A%D8%AF"
+  },
+  {
+    "name": "د. مينا يحيى أسعد",
+    "specialty": "طب الأسنان",
+    "area": "الفشن",
+    "address": "شارع سعد زغلول – الفشن؛ الإبراهيمية – الفشن.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D9%8A%D9%86%D8%A7%20%D9%8A%D8%AD%D9%8A%D9%89%20%D8%A3%D8%B3%D8%B9%D8%AF"
+  },
+  {
+    "name": "د. مينا مجدي ظريف",
+    "specialty": "طب وجراحة العيون",
+    "area": "الفشن",
+    "address": "برج الصالحي – الفشن.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D9%8A%D9%86%D8%A7%20%D9%85%D8%AC%D8%AF%D9%8A%20%D8%B8%D8%B1%D9%8A%D9%81"
+  },
+  {
+    "name": "د. إدوارد الفونس",
+    "specialty": "طب وجراحة العيون",
+    "area": "الفشن",
+    "address": "شارع البنك الأهلي – الفشن.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A5%D8%AF%D9%88%D8%A7%D8%B1%D8%AF%20%D8%A7%D9%84%D9%81%D9%88%D9%86%D8%B3"
+  },
+  {
+    "name": "د. أحمد عبد التواب",
+    "specialty": "قلب وأوعية دموية",
+    "area": "إهناسيا",
+    "address": "إهناسيا المدينة – شارع المركز – بجوار مجلس المدينة.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A3%D8%AD%D9%85%D8%AF%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%A8"
+  },
+  {
+    "name": "د. محمد شعبان",
+    "specialty": "مخ وأعصاب",
+    "area": "إهناسيا",
+    "address": "إهناسيا – شارع بورسعيد – أمام السنترال.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D8%AD%D9%85%D8%AF%20%D8%B4%D8%B9%D8%A8%D8%A7%D9%86"
+  },
+  {
+    "name": "د. أحمد عبد الباقي",
+    "specialty": "مخ وأعصاب",
+    "area": "إهناسيا",
+    "address": "إهناسيا المدينة – بني سويف.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A3%D8%AD%D9%85%D8%AF%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%A8%D8%A7%D9%82%D9%8A"
+  },
+  {
+    "name": "د. محمود حسن",
+    "specialty": "طب الأطفال",
+    "area": "إهناسيا",
+    "address": "إهناسيا – شارع السوق.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D8%AD%D9%85%D9%88%D8%AF%20%D8%AD%D8%B3%D9%86%20%D8%A5%D9%87%D9%86%D8%A7%D8%B3%D9%8A%D8%A7"
+  },
+  {
+    "name": "د. إسلام عبد الله",
+    "specialty": "طب الأطفال",
+    "area": "إهناسيا",
+    "address": "إهناسيا – بجوار الوحدة الصحية.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A5%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87"
+  },
+  {
+    "name": "د. خالد سيد",
+    "specialty": "طب الأسنان",
+    "area": "إهناسيا",
+    "address": "إهناسيا – شارع المدارس.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%AE%D8%A7%D9%84%D8%AF%20%D8%B3%D9%8A%D8%AF"
+  },
+  {
+    "name": "د. مينا جرجس",
+    "specialty": "طب وجراحة العيون",
+    "area": "إهناسيا",
+    "address": "إهناسيا – شارع المستشفى.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D9%8A%D9%86%D8%A7%20%D8%AC%D8%B1%D8%AC%D8%B3"
+  },
+  {
+    "name": "د. أحمد زكي",
+    "specialty": "طب وجراحة العيون",
+    "area": "إهناسيا",
+    "address": "إهناسيا – أمام الإدارة الصحية.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A3%D8%AD%D9%85%D8%AF%20%D8%B2%D9%83%D9%8A"
+  },
+  {
+    "name": "د. محمد عبد المنعم",
+    "specialty": "مخ وأعصاب",
+    "area": "ناصر",
+    "address": "ناصر – شارع المدارس.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D8%AD%D9%85%D8%AF%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%85%D9%86%D8%B9%D9%85"
+  },
+  {
+    "name": "د. حسن عبد الرحيم",
+    "specialty": "طب الأطفال",
+    "area": "ناصر",
+    "address": "ناصر – شارع السوق.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%AD%D8%B3%D9%86%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B1%D8%AD%D9%8A%D9%85"
+  },
+  {
+    "name": "د. محمود جابر",
+    "specialty": "طب الأطفال",
+    "area": "ناصر",
+    "address": "ناصر – بجوار الوحدة الصحية.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D8%AD%D9%85%D9%88%D8%AF%20%D8%AC%D8%A7%D8%A8%D8%B1"
+  },
+  {
+    "name": "د. مينا سمير",
+    "specialty": "طب الأسنان",
+    "area": "ناصر",
+    "address": "ناصر – شارع المدارس.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D9%8A%D9%86%D8%A7%20%D8%B3%D9%85%D9%8A%D8%B1"
+  },
+  {
+    "name": "د. سامح جرجس",
+    "specialty": "طب وجراحة العيون",
+    "area": "ناصر",
+    "address": "ناصر – شارع المستشفى.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%B3%D8%A7%D9%85%D8%AD%20%D8%AC%D8%B1%D8%AC%D8%B3"
+  },
+  {
+    "name": "د. أحمد شوقي",
+    "specialty": "طب وجراحة العيون",
+    "area": "ناصر",
+    "address": "ناصر – أمام الإدارة الصحية.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A3%D8%AD%D9%85%D8%AF%20%D8%B4%D9%88%D9%82%D9%8A"
+  },
+  {
+    "name": "د. أحمد فوزي",
+    "specialty": "قلب وأوعية دموية",
+    "area": "بني سويف",
+    "address": "بني سويف – شارع عبد السلام عارف – بالقرب من مديرية الصحة.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A3%D8%AD%D9%85%D8%AF%20%D9%81%D9%88%D8%B2%D9%8A%20%D9%82%D9%84%D8%A8%20%D8%A8%D9%86%D9%8A%20%D8%B3%D9%88%D9%8A%D9%81"
+  },
+  {
+    "name": "د. محمد صلاح الدين",
+    "specialty": "قلب وأوعية دموية",
+    "area": "بني سويف",
+    "address": "بني سويف – كورنيش النيل – برج الأطباء.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D8%AD%D9%85%D8%AF%20%D8%B5%D9%84%D8%A7%D8%AD%20%D8%A7%D9%84%D8%AF%D9%8A%D9%86"
+  },
+  {
+    "name": "د. محمود حسن",
+    "specialty": "مخ وأعصاب",
+    "area": "بني سويف",
+    "address": "بني سويف – شارع سعد زغلول – أمام المحكمة.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D8%AD%D9%85%D9%88%D8%AF%20%D8%AD%D8%B3%D9%86%20%D8%A3%D8%B9%D8%B5%D8%A7%D8%A8%20%D8%A8%D9%86%D9%8A%20%D8%B3%D9%88%D9%8A%D9%81"
+  },
+  {
+    "name": "د. أحمد عبد الرحمن",
+    "specialty": "مخ وأعصاب",
+    "area": "بني سويف",
+    "address": "بني سويف – شارع صلاح سالم – بجوار التأمين الصحي.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A3%D8%AD%D9%85%D8%AF%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86%20%D8%A3%D8%B9%D8%B5%D8%A7%D8%A8"
+  },
+  {
+    "name": "د. محمد سمير",
+    "specialty": "طب الأطفال",
+    "area": "بني سويف",
+    "address": "بني سويف – شارع 23 يوليو – برج الأطباء.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D8%AD%D9%85%D8%AF%20%D8%B3%D9%85%D9%8A%D8%B1%20%D8%A3%D8%B7%D9%81%D8%A7%D9%84"
+  },
+  {
+    "name": "د. إسلام حسن",
+    "specialty": "طب الأطفال",
+    "area": "بني سويف",
+    "address": "بني سويف – بني سويف الجديدة – الحي الثاني.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A5%D8%B3%D9%84%D8%A7%D9%85%20%D8%AD%D8%B3%D9%86%20%D8%A3%D8%B7%D9%81%D8%A7%D9%84"
+  },
+  {
+    "name": "د. مينا سمير",
+    "specialty": "طب الأسنان",
+    "area": "بني سويف",
+    "address": "بني سويف – شارع عبد السلام عارف – برج العيادات.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D9%8A%D9%86%D8%A7%20%D8%B3%D9%85%D9%8A%D8%B1%20%D8%A3%D8%B3%D9%86%D8%A7%D9%86%20%D8%A8%D9%86%D9%8A%20%D8%B3%D9%88%D9%8A%D9%81"
+  },
+  {
+    "name": "د. أحمد شوقي",
+    "specialty": "طب الأسنان",
+    "area": "بني سويف",
+    "address": "بني سويف – شارع بورسعيد – بالقرب من المستشفى العام.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A3%D8%AD%D9%85%D8%AF%20%D8%B4%D9%88%D9%82%D9%8A%20%D8%A3%D8%B3%D9%86%D8%A7%D9%86%20%D8%A8%D9%86%D9%8A%20%D8%B3%D9%88%D9%8A%D9%81"
+  },
+  {
+    "name": "د. كريم عادل",
+    "specialty": "علاج طبيعي",
+    "area": "بني سويف",
+    "address": "بني سويف – شارع صلاح سالم – مركز التأهيل.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%83%D8%B1%D9%8A%D9%85%20%D8%B9%D8%A7%D8%AF%D9%84%20%D8%B9%D9%84%D8%A7%D8%AC%20%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A"
+  },
+  {
+    "name": "د. مصطفى محمود",
+    "specialty": "علاج طبيعي",
+    "area": "بني سويف",
+    "address": "بني سويف – كورنيش النيل – بجوار النادي الرياضي.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D8%B5%D8%B7%D9%81%D9%89%20%D9%85%D8%AD%D9%85%D9%88%D8%AF%20%D8%B9%D9%84%D8%A7%D8%AC%20%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A"
+  },
+  {
+    "name": "د. سامح جرجس",
+    "specialty": "طب وجراحة العيون",
+    "area": "بني سويف",
+    "address": "بني سويف – شارع عبد السلام عارف – أمام المستشفى التخصصي.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%B3%D8%A7%D9%85%D8%AD%20%D8%AC%D8%B1%D8%AC%D8%B3%20%D8%B9%D9%8A%D9%88%D9%86%20%D8%A8%D9%86%D9%8A%20%D8%B3%D9%88%D9%8A%D9%81"
+  },
+  {
+    "name": "د. خالد يوسف",
+    "specialty": "طب وجراحة العيون",
+    "area": "بني سويف",
+    "address": "بني سويف – بني سويف الجديدة – الحي الأول.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%AE%D8%A7%D9%84%D8%AF%20%D9%8A%D9%88%D8%B3%D9%81%20%D8%B9%D9%8A%D9%88%D9%86"
+  },
+  {
+    "name": "د. أحمد طارق",
+    "specialty": "عظام",
+    "area": "بني سويف",
+    "address": "بني سويف – شارع سعد زغلول – برج الأطباء.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A3%D8%AD%D9%85%D8%AF%20%D8%B7%D8%A7%D8%B1%D9%82%20%D8%B9%D8%B8%D8%A7%D9%85"
+  },
+  {
+    "name": "د. محمد عبد الله",
+    "specialty": "عظام",
+    "area": "بني سويف",
+    "address": "بني سويف – شارع بورسعيد – بالقرب من التأمين الصحي.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D8%AD%D9%85%D8%AF%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%B9%D8%B8%D8%A7%D9%85"
+  },
+  {
+    "name": "د. إسلام عبد الله",
+    "specialty": "أمراض باطنة",
+    "area": "بني سويف",
+    "address": "بني سويف – شارع عبد السلام عارف – برج الأطباء.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A5%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D8%A7%D8%B7%D9%86%D8%A9%20%D8%A8%D9%86%D9%8A%20%D8%B3%D9%88%D9%8A%D9%81"
+  },
+  {
+    "name": "د. حسن محمود",
+    "specialty": "أمراض باطنة",
+    "area": "بني سويف",
+    "address": "بني سويف – بني سويف الجديدة – الحي الثالث.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%AD%D8%B3%D9%86%20%D9%85%D8%AD%D9%85%D9%88%D8%AF%20%D8%A8%D8%A7%D8%B7%D9%86%D8%A9"
+  },
+  {
+    "name": "د. خالد عبد التواب",
+    "specialty": "قلب وأوعية دموية",
+    "area": "مركز ببا",
+    "address": "بني سويف – مركز ببا – شارع الجمهورية – بجوار مجلس المدينة.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%AE%D8%A7%D9%84%D8%AF%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%AA%D9%88%D8%A7%D8%A8%20%D8%A8%D8%A8%D8%A7"
+  },
+  {
+    "name": "د. وائل محمود",
+    "specialty": "قلب وأوعية دموية",
+    "area": "مركز ببا",
+    "address": "بني سويف – مركز ببا – طريق ببا الرئيسي – بالقرب من المستشفى المركزي.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%88%D8%A7%D8%A6%D9%84%20%D9%85%D8%AD%D9%85%D9%88%D8%AF%20%D9%82%D9%84%D8%A8"
+  },
+  {
+    "name": "د. تامر صلاح",
+    "specialty": "مخ وأعصاب",
+    "area": "مركز ببا",
+    "address": "بني سويف – مركز ببا – شارع التحرير – أمام الإدارة التعليمية.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%AA%D8%A7%D9%85%D8%B1%20%D8%B5%D9%84%D8%A7%D8%AD%20%D8%A3%D8%B9%D8%B5%D8%A7%D8%A8"
+  },
+  {
+    "name": "د. أشرف حمدي",
+    "specialty": "مخ وأعصاب",
+    "area": "مركز ببا",
+    "address": "بني سويف – مركز ببا – شارع بورسعيد – بجوار البريد.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A3%D8%B4%D8%B1%D9%81%20%D8%AD%D9%85%D8%AF%D9%8A%20%D8%A3%D8%B9%D8%B5%D8%A7%D8%A8"
+  },
+  {
+    "name": "د. عمرو السيد",
+    "specialty": "طب الأطفال",
+    "area": "مركز ببا",
+    "address": "بني سويف – مركز ببا – شارع المدارس – بالقرب من المدرسة الثانوية.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%B9%D9%85%D8%B1%D9%88%20%D8%A7%D9%84%D8%B3%D9%8A%D8%AF%20%D8%A3%D8%B7%D9%81%D8%A7%D9%84"
+  },
+  {
+    "name": "د. مصطفى كامل",
+    "specialty": "طب الأطفال",
+    "area": "مركز ببا",
+    "address": "بني سويف – مركز ببا – شارع النصر – بجوار الوحدة الصحية.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D8%B5%D8%B7%D9%81%D9%89%20%D9%83%D8%A7%D9%85%D9%84%20%D8%A3%D8%B7%D9%81%D8%A7%D9%84"
+  },
+  {
+    "name": "د. بيتر مينا",
+    "specialty": "طب الأسنان",
+    "area": "مركز ببا",
+    "address": "بني سويف – مركز ببا – شارع الجمهورية – برج العيادات.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A8%D9%8A%D8%AA%D8%B1%20%D9%85%D9%8A%D9%86%D8%A7%20%D8%A3%D8%B3%D9%86%D8%A7%D9%86"
+  },
+  {
+    "name": "د. شريف عادل",
+    "specialty": "طب الأسنان",
+    "area": "مركز ببا",
+    "address": "بني سويف – مركز ببا – شارع التحرير – أمام المركز الطبي.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%B4%D8%B1%D9%8A%D9%81%20%D8%B9%D8%A7%D8%AF%D9%84%20%D8%A3%D8%B3%D9%86%D8%A7%D9%86"
+  },
+  {
+    "name": "د. حسام الدين أحمد",
+    "specialty": "علاج طبيعي",
+    "area": "مركز ببا",
+    "address": "بني سويف – مركز ببا – شارع بورسعيد – مركز التأهيل.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%AD%D8%B3%D8%A7%D9%85%20%D8%A7%D9%84%D8%AF%D9%8A%D9%86%20%D8%B9%D9%84%D8%A7%D8%AC%20%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A"
+  },
+  {
+    "name": "د. أحمد زكريا",
+    "specialty": "علاج طبيعي",
+    "area": "مركز ببا",
+    "address": "بني سويف – مركز ببا – طريق ببا – بجوار النادي الرياضي.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A3%D8%AD%D9%85%D8%AF%20%D8%B2%D9%83%D8%B1%D9%8A%D8%A7%20%D8%B9%D9%84%D8%A7%D8%AC%20%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A"
+  },
+  {
+    "name": "د. سامي جرجس",
+    "specialty": "طب وجراحة العيون",
+    "area": "مركز ببا",
+    "address": "بني سويف – مركز ببا – شارع الجمهورية – أمام المستشفى المركزي.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%B3%D8%A7%D9%85%D9%8A%20%D8%AC%D8%B1%D8%AC%D8%B3%20%D8%B9%D9%8A%D9%88%D9%86%20%D8%A8%D8%A8%D8%A7"
+  },
+  {
+    "name": "د. إسلام فؤاد",
+    "specialty": "طب وجراحة العيون",
+    "area": "مركز ببا",
+    "address": "بني سويف – مركز ببا – شارع التحرير – بجوار الصيدلية الكبرى.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A5%D8%B3%D9%84%D8%A7%D9%85%20%D9%81%D8%A4%D8%A7%D8%AF%20%D8%B9%D9%8A%D9%88%D9%86"
+  },
+  {
+    "name": "د. محمد فاروق",
+    "specialty": "عظام",
+    "area": "مركز ببا",
+    "address": "بني سويف – مركز ببا – شارع النصر – برج الأطباء.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D8%AD%D9%85%D8%AF%20%D9%81%D8%A7%D8%B1%D9%88%D9%82%20%D8%B9%D8%B8%D8%A7%D9%85%20%D8%A8%D8%A8%D8%A7"
+  },
+  {
+    "name": "د. أحمد عبد العزيز",
+    "specialty": "عظام",
+    "area": "مركز ببا",
+    "address": "بني سويف – مركز ببا – شارع المدارس – بالقرب من المستشفى.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A3%D8%AD%D9%85%D8%AF%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D8%B9%D8%B2%D9%8A%D8%B2%20%D8%B9%D8%B8%D8%A7%D9%85%20%D8%A8%D8%A8%D8%A7"
+  },
+  {
+    "name": "د. محمود عبد الله",
+    "specialty": "أمراض باطنة",
+    "area": "مركز ببا",
+    "address": "بني سويف – مركز ببا – شارع الجمهورية – برج العيادات.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D8%AD%D9%85%D9%88%D8%AF%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%84%D9%87%20%D8%A8%D8%A7%D8%B7%D9%86%D8%A9%20%D8%A8%D8%A8%D8%A7"
+  },
+  {
+    "name": "د. حسن علي",
+    "specialty": "أمراض باطنة",
+    "area": "مركز ببا",
+    "address": "بني سويف – مركز ببا – شارع التحرير – أمام المركز الطبي.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%AD%D8%B3%D9%86%20%D8%B9%D9%84%D9%8A%20%D8%A8%D8%A7%D8%B7%D9%86%D8%A9%20%D8%A8%D8%A8%D8%A7"
+  },
+  {
+    "name": "د. حسام عبد القادر",
+    "specialty": "قلب وأوعية دموية",
+    "area": "مركز سمسطا",
+    "address": "بني سويف – مركز سمسطا – شارع بورسعيد – بجوار المستشفى المركزي.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%AD%D8%B3%D8%A7%D9%85%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%82%D8%A7%D8%AF%D8%B1%20%D8%B3%D9%85%D8%B3%D8%B7%D8%A7"
+  },
+  {
+    "name": "د. عماد فتحي",
+    "specialty": "قلب وأوعية دموية",
+    "area": "مركز سمسطا",
+    "address": "بني سويف – مركز سمسطا – شارع الثورة – بالقرب من مجلس المدينة.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%B9%D9%85%D8%A7%D8%AF%20%D9%81%D8%AA%D8%AD%D9%8A%20%D9%82%D9%84%D8%A8"
+  },
+  {
+    "name": "د. رامي نبيل",
+    "specialty": "مخ وأعصاب",
+    "area": "مركز سمسطا",
+    "address": "بني سويف – مركز سمسطا – شارع الجمهورية – أمام الإدارة الصحية.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%B1%D8%A7%D9%85%D9%8A%20%D9%86%D8%A8%D9%8A%D9%84%20%D8%A3%D8%B9%D8%B5%D8%A7%D8%A8"
+  },
+  {
+    "name": "د. طارق عزت",
+    "specialty": "مخ وأعصاب",
+    "area": "مركز سمسطا",
+    "address": "بني سويف – مركز سمسطا – شارع التحرير – بجوار المركز الطبي.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%B7%D8%A7%D8%B1%D9%82%20%D8%B9%D8%B2%D8%AA%20%D8%A3%D8%B9%D8%B5%D8%A7%D8%A8%20%D8%B3%D9%85%D8%B3%D8%B7%D8%A7"
+  },
+  {
+    "name": "د. أحمد رمضان",
+    "specialty": "طب الأطفال",
+    "area": "مركز سمسطا",
+    "address": "بني سويف – مركز سمسطا – شارع المدارس – بالقرب من المدرسة الإعدادية.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A3%D8%AD%D9%85%D8%AF%20%D8%B1%D9%85%D8%B6%D8%A7%D9%86%20%D8%A3%D8%B7%D9%81%D8%A7%D9%84"
+  },
+  {
+    "name": "د. وليد سامي",
+    "specialty": "طب الأطفال",
+    "area": "مركز سمسطا",
+    "address": "بني سويف – مركز سمسطا – شارع النصر – بجوار الوحدة الصحية.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%88%D9%84%D9%8A%D8%AF%20%D8%B3%D8%A7%D9%85%D9%8A%20%D8%A3%D8%B7%D9%81%D8%A7%D9%84"
+  },
+  {
+    "name": "د. مروان عادل",
+    "specialty": "طب الأسنان",
+    "area": "مركز سمسطا",
+    "address": "بني سويف – مركز سمسطا – شارع الجمهورية – برج العيادات.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D8%B1%D9%88%D8%A7%D9%86%20%D8%B9%D8%A7%D8%AF%D9%84%20%D8%A3%D8%B3%D9%86%D8%A7%D9%86"
+  },
+  {
+    "name": "د. جورج سمير",
+    "specialty": "طب الأسنان",
+    "area": "مركز سمسطا",
+    "address": "بني سويف – مركز سمسطا – شارع الثورة – أمام المركز الطبي.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%AC%D9%88%D8%B1%D8%AC%20%D8%B3%D9%85%D9%8A%D8%B1%20%D8%A3%D8%B3%D9%86%D8%A7%D9%86"
+  },
+  {
+    "name": "د. شريف محمود",
+    "specialty": "علاج طبيعي",
+    "area": "مركز سمسطا",
+    "address": "بني سويف – مركز سمسطا – شارع بورسعيد – مركز التأهيل.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%B4%D8%B1%D9%8A%D9%81%20%D9%85%D8%AD%D9%85%D9%88%D8%AF%20%D8%B9%D9%84%D8%A7%D8%AC%20%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A%20%D8%B3%D9%85%D8%B3%D8%B7%D8%A7"
+  },
+  {
+    "name": "د. كريم صبحي",
+    "specialty": "علاج طبيعي",
+    "area": "مركز سمسطا",
+    "address": "بني سويف – مركز سمسطا – شارع التحرير – بجوار النادي الرياضي.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%83%D8%B1%D9%8A%D9%85%20%D8%B5%D8%A8%D8%AD%D9%8A%20%D8%B9%D9%84%D8%A7%D8%AC%20%D8%B7%D8%A8%D9%8A%D8%B9%D9%8A"
+  },
+  {
+    "name": "د. فادي أنور",
+    "specialty": "طب وجراحة العيون",
+    "area": "مركز سمسطا",
+    "address": "بني سويف – مركز سمسطا – شارع الجمهورية – أمام المستشفى المركزي.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%81%D8%A7%D8%AF%D9%8A%20%D8%A3%D9%86%D9%88%D8%B1%20%D8%B9%D9%8A%D9%88%D9%86"
+  },
+  {
+    "name": "د. إسلام عادل",
+    "specialty": "طب وجراحة العيون",
+    "area": "مركز سمسطا",
+    "address": "بني سويف – مركز سمسطا – شارع النصر – بجوار الصيدلية الكبرى.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A5%D8%B3%D9%84%D8%A7%D9%85%20%D8%B9%D8%A7%D8%AF%D9%84%20%D8%B9%D9%8A%D9%88%D9%86%20%D8%B3%D9%85%D8%B3%D8%B7%D8%A7"
+  },
+  {
+    "name": "د. محمود حمدي",
+    "specialty": "عظام",
+    "area": "مركز سمسطا",
+    "address": "بني سويف – مركز سمسطا – شارع المدارس – برج الأطباء.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D8%AD%D9%85%D9%88%D8%AF%20%D8%AD%D9%85%D8%AF%D9%8A%20%D8%B9%D8%B8%D8%A7%D9%85%20%D8%B3%D9%85%D8%B3%D8%B7%D8%A7"
+  },
+  {
+    "name": "د. أحمد شادي",
+    "specialty": "عظام",
+    "area": "مركز سمسطا",
+    "address": "بني سويف – مركز سمسطا – شارع بورسعيد – بالقرب من التأمين الصحي.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D8%A3%D8%AD%D9%85%D8%AF%20%D8%B4%D8%A7%D8%AF%D9%8A%20%D8%B9%D8%B8%D8%A7%D9%85"
+  },
+  {
+    "name": "د. ياسر عبد الكريم",
+    "specialty": "أمراض باطنة",
+    "area": "مركز سمسطا",
+    "address": "بني سويف – مركز سمسطا – شارع الجمهورية – برج العيادات.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%8A%D8%A7%D8%B3%D8%B1%20%D8%B9%D8%A8%D8%AF%20%D8%A7%D9%84%D9%83%D8%B1%D9%8A%D9%85%20%D8%A8%D8%A7%D8%B7%D9%86%D8%A9"
+  },
+  {
+    "name": "د. محمد ناصر",
+    "specialty": "أمراض باطنة",
+    "area": "مركز سمسطا",
+    "address": "بني سويف – مركز سمسطا – شارع التحرير – أمام المركز الطبي.",
+    "avatar": "https://ui-avatars.com/api/?size=256&background=0d9488&color=fff&font-size=0.35&name=%D9%85%D8%AD%D9%85%D8%AF%20%D9%86%D8%A7%D8%B5%D8%B1%20%D8%A8%D8%A7%D8%B7%D9%86%D8%A9%20%D8%B3%D9%85%D8%B3%D8%B7%D8%A7"
+  },
+  {
+    "name": "د. نور الدين محمود",
+    "specialty": "قلب وأوعية دموية",
+    "area": null,
+    "address": null,
+    "avatar": "https://randomuser.me/api/portraits/men/32.jpg"
+  },
+  {
+    "name": "د. ديسام سرحان",
+    "specialty": "طب الأسنان",
+    "area": null,
+    "address": null,
+    "avatar": "https://randomuser.me/api/portraits/men/44.jpg"
+  },
+  {
+    "name": "د. موسى محمد",
+    "specialty": "عظام طبي",
+    "area": null,
+    "address": null,
+    "avatar": "https://randomuser.me/api/portraits/men/55.jpg"
+  },
+  {
+    "name": "د. خالد عبد العزيز",
+    "specialty": "طب عيون",
+    "area": null,
+    "address": null,
+    "avatar": "https://randomuser.me/api/portraits/men/60.jpg"
+  },
+  {
+    "name": "د. ياسمين فؤاد",
+    "specialty": "أطفال وحديثي الولادة",
+    "area": null,
+    "address": null,
+    "avatar": "https://randomuser.me/api/portraits/women/65.jpg"
+  },
+  {
+    "name": "د. كريم أنور",
+    "specialty": "مخ وأعصاب",
+    "area": null,
+    "address": null,
+    "avatar": "https://randomuser.me/api/portraits/men/22.jpg"
+  },
+  {
+    "name": "د. هبة السيد",
+    "specialty": "جلدية وتجميل",
+    "area": null,
+    "address": null,
+    "avatar": "https://randomuser.me/api/portraits/women/44.jpg"
+  },
+  {
+    "name": "د. عمرو حلمي",
+    "specialty": "أنف وأذن وحنجرة",
+    "area": null,
+    "address": null,
+    "avatar": "https://randomuser.me/api/portraits/men/67.jpg"
+  }
+]
