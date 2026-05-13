@@ -83,4 +83,4 @@ EXPOSE 8000
 # =========================
 # Web only (no migrate) — bind immediately for PaaS healthchecks. Migrations: Railway preDeployCommand in railway.toml.
 # =========================
-CMD ["php", "-S", "0.0.0.0:8080", "-t", "public"]
+CMD ["php", "-S", "0.0.0.0:${PORT}", "-t", "public"]
