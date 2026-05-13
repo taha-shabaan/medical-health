@@ -1,5 +1,5 @@
+# Migrations: pre-deploy. Web binds to $PORT immediately (see startCommand).
 # https://docs.railway.com/reference/config-as-code
-# Migrations run in pre-deploy so the web process can bind to $PORT immediately (no 502 during migrate).
 
 [build]
 builder = "DOCKERFILE"
@@ -8,7 +8,6 @@ dockerfilePath = "Dockerfile"
 [deploy]
 preDeployCommand = ["php", "artisan", "migrate", "--force"]
 # Bind HTTP right away; $PORT must expand in a shell (not as a literal ${PORT} argv to php).
-[deploy]
 startCommand = "php -S 0.0.0.0:${PORT} -t public"
 healthcheckPath = "/up"
 healthcheckTimeout = 300
