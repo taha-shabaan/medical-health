@@ -11,6 +11,7 @@ COPY composer.json composer.lock ./
 # install dependencies (NO artisan here yet)
 RUN composer install \
     --no-dev \
+    --no-scripts \
     --optimize-autoloader \
     --no-interaction \
     --prefer-dist
