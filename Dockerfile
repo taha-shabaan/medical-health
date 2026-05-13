@@ -8,7 +8,7 @@ WORKDIR /app
 # copy only composer files first (for cache)
 COPY composer.json composer.lock ./
 
-# install dependencies (NO artisan here yet)
+# install dependencies; --no-scripts skips post-autoload-dump (needs artisan), not copied yet
 RUN composer install \
     --no-dev \
     --no-scripts \
@@ -62,6 +62,7 @@ RUN cp .env.example .env || true \
     && touch database/database.sqlite \
     && mkdir -p storage bootstrap/cache \
     && chmod -R 775 storage bootstrap/cache \
+    && php artisan package:discover --ansi \
     && php artisan key:generate --force || true
 
 # =========================
