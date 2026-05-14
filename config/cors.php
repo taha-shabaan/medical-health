@@ -23,19 +23,14 @@ return [
         'trim',
         explode(',', (string) env('CORS_ALLOWED_ORIGINS', implode(',', [
             'http://localhost:5173',
-            'https://graduation-project-ivory.vercel.app/',
+            'http://127.0.0.1:5173',
+            'https://graduation-project-ivory.vercel.app',
         ])))
     ))),
 
     'allowed_origins_patterns' => [],
 
-    'allowed_headeSo you can override everything with a single env var like:
-CORS_ALLOWED_ORIGINS=http://a.com,https://b.com
-
-(string) …
-Forces a string so explode always gets a string (avoids type issues if env returns something odd).
-
-rs' => ['*'],
+    'allowed_headers' => ['*'],
 
     'exposed_headers' => [],
 

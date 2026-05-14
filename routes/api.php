@@ -10,7 +10,6 @@ use App\Http\Controllers\Api\MedicalRecordController;
 use App\Http\Controllers\Api\NotificationController;
 use App\Http\Controllers\Api\PatientController;
 use App\Http\Controllers\Api\PaymentWebhookController;
-use App\Http\Controllers\Api\ChatController;
 use Illuminate\Support\Facades\Route;
 
 Route::prefix('auth')->group(function () {
@@ -55,11 +54,15 @@ Route::middleware(['auth:sanctum', 'role:patient'])->group(function () {
     Route::post('/invoices/{invoiceRef}/pay', [PatientController::class, 'payInvoice'])->where('invoiceRef', '[A-Za-z0-9#\\-._]+');
 });
 
-Route::middleware(['auth:sanctum', 'throttle:20,1'])->prefix('chat')->group(function () {
-    Route::post('/conversations', [ChatController::class, 'storeConversation']);
-    Route::get('/conversations', [ChatController::class, 'index']);
-    Route::get('/conversations/{conversation}', [ChatController::class, 'show']);
-    Route::post('/send', [ChatController::class, 'send']);
+Route::middleware(['auth:sanctum', 'throttle:30,1'])->group(function () {
+    Route::get('/notifications', [NotificationController::class, 'index']);
+    Route::post('/notifications/read-all', [NotificationController::class, 'markAllRead']);
+    Route::post('/notifications/{notification}/read', [NotificationController::class, 'markRead']);
+
+    Route::get('/ai/conversations', [AiController::class, 'conversations']);
+    Route::post('/ai/conversations', [AiController::class, 'createConversation']);
+    Route::get('/ai/conversations/{conversation}/messages', [AiController::class, 'messages']);
+    Route::post('/ai/messages', [AiController::class, 'sendMessage']);
 });
 
 Route::middleware(['auth:sanctum', 'role:doctor'])->group(function () {

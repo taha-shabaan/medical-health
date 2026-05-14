@@ -102,9 +102,5 @@ class User extends Authenticatable
     public function notifications(): HasMany
     {
         return $this->hasMany(UserNotification::class, 'user_id');
-    // public function conversations(): HasMany
-    // {
-    //     return $this->hasMany(Conversation::class);
-    // }
-}
+    }
 }

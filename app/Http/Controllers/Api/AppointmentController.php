@@ -76,7 +76,7 @@ class AppointmentController extends Controller
         InAppNotification::send(
             (int) $appointment->doctor_id,
             'New appointment booked',
-            'A patient booked an appointment on '.$appointment->appointment_date.' at '.(substr((string) $appointment->appointment_time, 0, 5) ?: '00:00'),
+            'A patient booked an appointment on '.$appointment->appointment_date.' at '.substr((string) $appointment->appointment_time, 0, 5),
             'appointment_booked',
             ['appointment_id' => $appointment->id]
         );

@@ -95,34 +95,4 @@ return [
         'database_empty_user' => env('AI_DATABASE_EMPTY', 'كيف أقدر أساعدك؟'),
     ],
 
-
-    /*
-    |--------------------------------------------------------------------------
-    | Google Gemini — used for BOTH LLM chat and embeddings
-    | LLM  : gemini-2.5-flash-lite with configured fallbacks
-    | Embed: gemini-embedding-001 with 768 dimensions for Pinecone compatibility
-    |--------------------------------------------------------------------------
-    */
-    'gemini' => [
-        'key'        => env('GEMINI_API_KEY'),
-        'llm_model'  => env('GEMINI_LLM_MODEL',   'gemini-2.5-flash-lite'),
-        'fallback_models' => array_values(array_filter(array_map(
-            'trim',
-            explode(',', env('GEMINI_FALLBACK_MODELS', 'gemma-3-12b-it,gemini-2.5-flash'))
-        ))),
-        'retry_attempts' => (int) env('GEMINI_RETRY_ATTEMPTS', 1),
-        'embed_model' => env('GEMINI_EMBED_MODEL', 'models/gemini-embedding-001'),
-        'embed_dimensions' => (int) env('GEMINI_EMBED_DIMENSIONS', 768),
-        'base_url' => 'https://generativelanguage.googleapis.com/v1beta',
-    ],
-    /*
-    |--------------------------------------------------------------------------
-    | Pinecone — dimension MUST be 768 to match Gemini embeddings
-    |--------------------------------------------------------------------------
-    */
-    'pinecone' => [
-        'key'   => env('PINECONE_API_KEY'),
-        'index' => env('PINECONE_INDEX', 'rag-system'),
-        'host'  => env('PINECONE_HOST'),
-    ],
 ];

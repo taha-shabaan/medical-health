@@ -415,14 +415,14 @@ class DoctorController extends Controller
 
     public function deletePrescription(Request $request, int $prescription): JsonResponse
     {
-        $model = Prescription::find($prescription);
+        $model = Prescription::where('id', $prescription)->first();
 
         if (! $model) {
             return response()->json(['message' => 'Prescription not found.'], 404);
         }
 
         if ($model->doctor_id !== $request->user()->id) {
-            return response()->json(['message' => 'Unauthorized prescription access.'], 403);
+            return response()->json(['message' => 'Forbidden.'], 403);
         }
 
         $model->delete();
