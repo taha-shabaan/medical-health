@@ -29,7 +29,13 @@ return [
 
     'allowed_origins_patterns' => [],
 
-    'allowed_headers' => ['*'],
+    'allowed_headeSo you can override everything with a single env var like:
+CORS_ALLOWED_ORIGINS=http://a.com,https://b.com
+
+(string) …
+Forces a string so explode always gets a string (avoids type issues if env returns something odd).
+
+rs' => ['*'],
 
     'exposed_headers' => [],
 
